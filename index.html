@@ -1,70 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lake Vermilion Real Estate - Celebrating Retirement</title>
     <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            padding: 0;
-            height: 100vh;
-            background-image: url('bg.jpg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            font-family: Helvetica, sans-serif;
-            text-align: center;
-        }
-        .container {
-            max-width: 800px;
-            padding: 20px;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px; /* Optional: Adds rounded corners to the image */
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds a subtle shadow */
-        }
-        .message {
-            margin-top: 20px;
-            font-size: 1.2em;
-            color: #333;
-        }
-        a {
-            display: inline-block;
-            margin-top: 30px;
-            padding: 10px 20px;
-            background-color: #007BFF; /* Button color */
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        a:hover {
-            background-color: #0056b3; /* Button hover color */
-        }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        font-family: Helvetica, sans-serif;
+        text-align: center;
+        background-color: #000;
+        color: #fff;
+      }
+      body::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("bg.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        filter: blur(8px);
+        opacity: 0.2;
+        z-index: -1;
+      }
+      .container {
+        max-width: 800px;
+        padding: 40px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      }
+      .message {
+        font-size: 1.2em;
+        color: #fff;
+        line-height: 1.6;
+      }
+      h1 {
+        margin-bottom: 20px;
+      }
+      p {
+        margin-bottom: 20px;
+      }
+      a {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      }
+      a:hover {
+        background-color: #0056b3;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="message">
-            <h1>Congratulations, Bill!</h1>
-            <p><i>A note from The Webmaster:</i></p>
-            <p>Twenty-two years ago, as a freshman in college, cheap and creative Christmas gifts were the order of the day. In a comically large box, a wrapped up a scrap of paper to give to my father.</p>
-            <p><tt>________________.com</tt>, it read. He'd only been in real estate for a couple of years, but as a child of the internet, it seemed obvious that a new website would complement his burgeoning career.</p>
-            <p>That website became this one, Lake Vermilion Real Estate, with the domain name to match. For more than two decades it's been a realiable and trusty source of information about the market, and a glimpse into the life of an agent and broker in northern Minnesota.</p>
-            <p>With great admiration and celebration, the time has come to put the website to bed, as my father, Bill Tibbetts, your estimable host of LVRE, is retired as of today.</p>
-            <p>it's time to enjoy those boat rides as something beyond a "business trip", Pa. (Though, it's a pretty gig, if you can get it.) You've earned it.</p>
-            <p>Love,<br/>Your son, The Webmaster</p>
-            <p><a href="https://www.bicrealty.com">BICRealty.com</a> | <a href="mailto:bill@lakevermilionrealestate.com">Contact Bill</a></p>
-            <img src="retired.jpg" alt="Celebrating Bill Tibbetts's Retirement">
-        </div>
+      <div class="message">
+        <h1>Congratulations, Bill!</h1>
+        <p><i>A note from The Webmaster:</i></p>
+        <p>
+          Twenty-two years ago, as a freshman in college, cheap and creative
+          Christmas gifts were the order of the day. In a comically large box, a
+          wrapped up a scrap of paper to give to my father.
+        </p>
+        <p>
+          <tt>________________.com</tt>, it read. He'd only been in real estate
+          for a couple of years, but as a child of the internet, it seemed
+          obvious that a new website would complement his burgeoning career.
+        </p>
+        <p>
+          That website became this one, Lake Vermilion Real Estate, with the
+          domain name to match. For more than two decades it's been a reliable
+          and trusty source of information about the market, and a glimpse into
+          the life of an agent and broker in northern Minnesota.
+        </p>
+        <p>
+          With great admiration and celebration, the time has come to put the
+          website to bed, as my father, Bill Tibbetts, your estimable host of
+          LVRE, is retired as of today.
+        </p>
+        <p>
+          It's time to enjoy those boat rides as something beyond a "business
+          trip", Pa. (Though, it's a pretty gig, if you can get it.) You've
+          earned it.
+        </p>
+        <p>Love,<br />Your son, The Webmaster</p>
+        <p>
+          <a href="https://www.bicrealty.com">BICRealty.com</a> |
+          <a href="mailto:bill@lakevermilionrealestate.com">Contact Bill</a>
+        </p>
+        <img src="retired.jpg" alt="Celebrating Bill Tibbetts's Retirement" />
+      </div>
     </div>
-</body>
+  </body>
 </html>
